@@ -26,7 +26,7 @@ This mod can be safely added to your savegame after the game has started. Becaus
 Overriding many types of game objects causes the game to log errors noting each override. Expect to see thirty-one (!) lines in the error.log file, mostly related to overwriting agreement term values and agreement terms.
 
 [h2]Changelog[/h2]
-See [url=https://steamcommunity.com/sharedfiles/filedetails/changelog/]Change Notes[/url]
+See [url=https://steamcommunity.com/sharedfiles/filedetails/changelog/2968616122]Change Notes[/url]
 
 [h2]Source Code[/h2]
 Hosted on [url=https://github.com/corsairmarks/specialist_mercatorum_ver]GitHub[/url]
