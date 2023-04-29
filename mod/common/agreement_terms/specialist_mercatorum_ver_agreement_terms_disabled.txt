@@ -1,0 +1,9 @@
+resource_subsidies_commercial = {
+	term_type = discrete_number
+	hidden = yes
+}
+
+resource_subsidies_infrastructure = {
+	term_type = discrete_number
+	hidden = yes
+}

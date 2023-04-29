@@ -1,0 +1,71 @@
+# Agreement Term Values from Specialist Subject: Mercatorum that are disabled
+
+resource_subsidies_commercial_null = {
+	term = resource_subsidies_commercial
+	potential = { always = no }
+}
+
+resource_subsidies_commercial_0 = {
+	term = resource_subsidies_commercial
+	potential = { always = no }
+}
+
+resource_subsidies_commercial_15 = {
+	term = resource_subsidies_commercial
+	potential = { always = no }
+}
+
+resource_subsidies_commercial_30 = {
+	term = resource_subsidies_commercial
+	potential = { always = no }
+}
+
+resource_subsidies_commercial_45 = {
+	term = resource_subsidies_commercial
+	potential = { always = no }
+}
+
+resource_subsidies_commercial_60 = {
+	term = resource_subsidies_commercial
+	potential = { always = no }
+}
+
+resource_subsidies_commercial_75 = {
+	term = resource_subsidies_commercial
+	potential = { always = no }
+}
+
+resource_subsidies_infrastructure_null = {
+	term = resource_subsidies_infrastructure
+	potential = { always = no }
+}
+
+resource_subsidies_infrastructure_0 = {
+	term = resource_subsidies_infrastructure
+	potential = { always = no }
+}
+
+resource_subsidies_infrastructure_15 = {
+	term = resource_subsidies_infrastructure
+	potential = { always = no }
+}
+
+resource_subsidies_infrastructure_30 = {
+	term = resource_subsidies_infrastructure
+	potential = { always = no }
+}
+
+resource_subsidies_infrastructure_45 = {
+	term = resource_subsidies_infrastructure
+	potential = { always = no }
+}
+
+resource_subsidies_infrastructure_60 = {
+	term = resource_subsidies_infrastructure
+	potential = { always = no }
+}
+
+resource_subsidies_infrastructure_75 = {
+	term = resource_subsidies_infrastructure
+	potential = { always = no }
+}

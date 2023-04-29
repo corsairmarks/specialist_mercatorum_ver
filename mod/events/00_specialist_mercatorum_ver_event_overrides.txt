@@ -1,0 +1,19 @@
+namespace = specialist_mercatorum
+
+# triggered by on_agreement_change_accepted and explicitly by specialist_mercatorum.3
+agreement_event = {
+	id = specialist_mercatorum.1
+	hide_window = yes
+	is_triggered_only = yes
+	trigger = { always = no }
+	immediate = { }
+}
+
+# triggered by on_monthly_pulse
+event = {
+	id = specialist_mercatorum.2
+	hide_window = yes
+	is_triggered_only = yes
+	trigger = { always = no }
+	immediate = { }
+}
