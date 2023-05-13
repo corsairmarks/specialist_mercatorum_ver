@@ -7,7 +7,7 @@ Largely plays the same as Specialist Subject: Mercatorum, with additional compat
 Some code from Vassals Expanded and Reworked has been overridden in order to add the relevant restrictions for Mercatora.
 
 [h2]Compatibility[/h2]
-Built for Stellaris version 3.7 "Canis Minor." Not compatible with achievements.
+Built for Stellaris version 3.8 "Gemini." Not compatible with achievements.
 
 [h3]When to Install[/h3]
 This mod can be safely added to your savegame after the game has started. Because it adds gameplay objects (most notably things related to the Mercatorum subject specialization), it should not be removed during a game.

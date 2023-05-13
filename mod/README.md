@@ -10,7 +10,7 @@ Some code from Vassals Expanded and Reworked has been overridden in order to add
 
 ## Compatibility
 
-Built for Stellaris version 3.7 "Canis Minor." Not compatible with achievements.
+Built for Stellaris version 3.8 "Gemini." Not compatible with achievements.
 
 ### When to Install
 
@@ -67,6 +67,7 @@ Overriding many types of game objects causes the game to log errors noting each 
 ## Changelog
 
 * 1.0.0 Initial version
+* 1.1.0 Mark as compatible with Stellaris 3.8 "Gemini" - no script changes
 
 ## Source Code
 
