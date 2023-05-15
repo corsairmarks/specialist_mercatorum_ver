@@ -946,6 +946,81 @@ subject_ver_capital_allowed = {
 	}
 }
 
+# Modified: Mercatora won't fight your proxy wars
+subject_ver_proxy_allowed = {
+	term = subject_ver_proxy
+	loyalty_change = -30
+	ai_acceptance = {
+		overlord = 100
+		subject = -200
+	}
+	triggered_loyalty_change = {
+		trigger = {
+			target = {
+				OR = {
+					is_xenophile = yes
+					is_egalitarian = yes
+				}
+			}
+		}
+		loyalty_change = -15
+		ai_acceptance = {
+			subject = -200
+		}
+	}
+	target_modifier = {
+		monthly_loyalty = -5
+	}
+	possible = {
+		custom_tooltip = {
+			fail_text = not_allowed_for_tributary
+			NOT = { agreement_preset = preset_tributary }
+		}
+		custom_tooltip = {
+			fail_text = not_allowed_for_protectorate
+			NOT = { agreement_preset = preset_protectorate }
+		}
+		custom_tooltip = {
+			fail_text = not_allowed_for_mercatorum
+			NOT = { agreement_preset = preset_mercatorum }
+		}
+		custom_tooltip = {
+			fail_text = not_allowed_for_ver_devolved
+			NOT = { agreement_preset = preset_ver_devolved }
+		}
+		custom_tooltip = {
+			fail_text = not_allowed_for_ver_condo
+			NOT = { agreement_preset = preset_ver_condo }
+		}
+		custom_tooltip = {
+			fail_text = not_allowed_for_ver_foederatus
+			NOT = { agreement_preset = preset_ver_foederatus }
+		}
+		custom_tooltip = {
+			fail_text = not_allowed_for_ver_satellite
+			NOT = { agreement_preset = preset_ver_satellite }
+		}
+		custom_tooltip = {
+			fail_text = not_allowed_for_term_subject_wars
+			NOR = {
+				has_term_value = { term = joins_subject_wars value = joins_subject_wars_offensive }
+				has_term_value = { term = joins_subject_wars value = joins_subject_wars_all }
+			}
+		}
+		custom_tooltip = {
+			fail_text = not_allowed_for_term_subject_diplomacy
+			NOR = {
+				has_term_value = { term = subject_diplomacy value = subject_can_do_diplomacy }
+				has_term_value = { term = subject_diplomacy value = subject_can_do_diplomacy_but_not_vote }
+			}
+		}
+		custom_tooltip = {
+			fail_text = not_allowed_for_auto_state
+			NOT = { agreement_preset = preset_auto_state }
+		}
+	}
+}
+
 # Agreement Term Values from Specialist Subject: Mercatorum, modified to support Vassals: Reworked and Expanded
 
 # Modified: Mercatora cannot be integrated

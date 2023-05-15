@@ -68,6 +68,7 @@ Overriding many types of game objects causes the game to log errors noting each 
 
 * 1.0.0 Initial version
 * 1.1.0 Mark as compatible with Stellaris 3.8 "Gemini" - no script changes
+* 1.2.0 Mercatorum subjects cannot be set to fight proxy wars
 
 ## Source Code
 

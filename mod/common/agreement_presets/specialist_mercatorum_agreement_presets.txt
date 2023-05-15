@@ -77,6 +77,12 @@ preset_mercatorum = {
 				key = joins_subject_wars
 				value = joins_subject_wars_defensive
 			}
+			####
+			{
+				key = subject_ver_proxy
+				value = subject_ver_proxy_restricted
+			}
+			####
 			{
 				key = subject_holdings_limit
 				value = subject_holdings_limit_2
@@ -92,6 +98,11 @@ preset_mercatorum = {
 			{
 				key = protectorate
 				value = subject_is_not_protectorate
+			}
+			####
+			{
+				key = subject_ver_effects
+				value = subject_no_ver_effect
 			}
 		}
 	}
